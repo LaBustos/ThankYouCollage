@@ -32,8 +32,8 @@ int value = 1;}
 
 void mousePressed() {
   if (mouseX == 250) {
- text("Thank You!",210,150);
-  textSize(35);
+ text("Thank You!",300,150);
+  textSize(40);
    fill(255,255,255);
   } else {
    
