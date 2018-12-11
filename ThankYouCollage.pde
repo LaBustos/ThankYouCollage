@@ -3,9 +3,11 @@ int X=300;
 int Y=435;
 void setup(){
   PImage img;
-img =loadImage("Keyboard3.png"); 
-image(img, 130,300);      
-  size(600,600);  
+  img =loadImage("Keyboard3.png"); 
+}
+void draw(){
+image(img, 130,300);  
+  size(600,600);  }
 
 //
 
