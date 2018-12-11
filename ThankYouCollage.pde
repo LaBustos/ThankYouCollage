@@ -3,11 +3,9 @@ int X=300;
 int Y=435;
 void setup(){
   PImage img;
-  img =loadImage("Keyboard3.png"); 
-}
-void draw(){
-image(img, 130,300);  
-  size(600,600);  }
+img =loadImage("Keyboard3.png"); 
+image(img, 130,300);      
+  size(600,600);  
 
 //
 
@@ -32,12 +30,11 @@ void draw(){
    
 int value = 1;}
 
-void mousePressed() {
-  if (mouseX == 250) {
- text("Thank You!",300,150);
-  textSize(40);
+void mousePressed()  {
+  if (mouseX == 1) 
+ text("Thank You!",210,150);
+  textSize(35);
    fill(255,255,255);
-  } else {
-   
-  }
+  
+  
 }
